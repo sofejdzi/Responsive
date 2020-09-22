@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Tattoo Studio</title>
+		<link>https://tattostudio.000webhostapp.com/</link>
+		<description>Tattoo</description>
+		<item>
+			<title>News</title>
+			<link>https://tattostudio.000webhostapp.com/index.html</link>
+			<description>News channel emiting discounts, events and other important notifications regarding Tattoo Studio.</description>
+		</item>
+	</channel>
+</rss>

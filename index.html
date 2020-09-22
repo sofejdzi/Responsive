@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Tattoo Studio</title>
+		
+		<!--Stilovi-->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		
+		<!--Seo optimizacija-->
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="keywords" content="tattoo"/>
+		<meta name="description" content=""/>
+		<meta name="robots" content="index, follow"/>
+		
+		<link rel="shortcut icon" href="img/tattoo-icon.ico"/>
+		
+	</head>
+	<body>
+	
+		<!--Zaglavlje-->
+		<div id="zaglavlje">
+			<div id="omot">
+				<div id="logo"> 
+					<h1><a href="index.html" title="Tattoo Studio">Tattoo studio</a></h1>
+				</div>
+				<div id="meni">
+					<button id="btnMeni">Menu</button>
+					<ul>
+						<li class="aktivan"><a href="index.html">Home</a></li>
+						<li><a href="artists.html">Crew</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="author.html">About</a></li>
+						<li><a href="registration.html">Sign in</a></li>
+						<li><a href="registration.html">Sign up</a></li>
+					</ul>
+				</div>
+				<div id="pretraga">
+					<form name="forma" action="#" method="POST">
+						<input type="text" name="tbPretraga" id="tbPretraga" placeholder="Search" />
+						<button type="submit" id="tbDugme"> <i class="fa fa-search"> </i> </button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="pozadina">
+			<div class="tekstPozadina">
+				<h2>Tattoo Studio</h2>
+				<p>We love art!</p>
+			</div>
+		</div>
+
+		
+		<!--Sadrzaj-->
+		<section id="sadrzaj">
+			<div id="sadrzaj-tekst">
+				<h1>Tattoo studio</h1>
+				<h3>We love art</h3>
+				<p>Here at Tattoo Studio, we maintain a large variety of electric tattooing styles, quality body jewelry, and unique cutting-edge products. We are constantly expanding our inventory to keep up with the latest tattoo styles, fashions, and trends. Every customer receives a personalized evaluation of their tattoo needs. Every experience, every tattoo, every piercing is not only a work of art but a treasured memory of a great experience. We have a modern facility equipped with state-of-the-art sterilization tools,  procedures, and autoclaves. Tattoo Studio provided with the Friction Tattoo Chair Flagship V2. The V2 reclines easily into a full bed so you can relax in comfort while the work performed. The age of using salon/massage/dental chairs has ended. We use Fusion Ink, the industry’s "preferred ink for the professional artist". Fusion Ink has a much higher pigment load than any other ink on the market today and is an organic pigment that is completely vegan safe. It's not packed with fillers as are a lot of inks on the market today. You will see and feel the difference. Made in the USA.</p>
+				<p>All Needles, tubes, and Inks are all new per customer, used one time and thrown away responsibly. 100% disposable!</p>
+				<p>We have both male and female tattoo artists.</p>
+			</div>
+		    <div id="sadrzaj-artikli">
+				<article class="slike">
+				  <a href="artists.html" target="_blank">
+					<figure>
+						<img src="img/artist-1.jpg" class="osoba" alt="Tattoo artist Anya" title="Anya"/>
+						<figcaption>Anya</figcaption>
+					</figure>
+				  </a>
+				</article>
+				<article class="slike">
+				  <a href="artists.html" target="_blank">
+					<figure>
+						<img src="img/artist-2.jpg" class="osoba" alt="Tattoo artist Von" title="Von"/>
+						<figcaption>Von</figcaption>
+					</figure>
+				  </a>
+				</article>
+				<article class="slike">
+				  <a href="artists.html" target="_blank">
+					<figure>
+						<img src="img/artist-3.jpg" class="osoba" alt="Tattoo artist Steph" title="Steph"/>
+						<figcaption>Steph</figcaption>
+					</figure>
+				  </a>
+				</article>
+			</div>
+			<div class="cistac"></div>
+		</section>
+		
+		<!--Kontakt forma-->
+		<section id="kontakt">
+			<header id="naslov-kontakt">
+				<h2>Get in touch</h2>
+				<p>You can book your free consultation here</p>
+			</header>
+			<div id="omot-kontakt">
+				<form name="forma" action="#" method="POST">
+					<div id="blok-kontakt">
+						<div class="ime">
+							<input name="name" placeholder="Name" type="text" />
+						</div>
+						<div class="ime">
+							<input name="email" placeholder="Email" type="email" />
+						</div>								
+						<div id="poruka">
+							<textarea name="message" placeholder="Message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul id="dugme-kontakt">
+						<li><input type="submit" class="special" value="Submit" /></li>
+						<li><input type="reset" class="alt" value="Reset" /></li>
+					</ul>
+				</form>
+			</div>
+		</section>
+		
+		
+		
+		<!--<section id="kontakt">
+			<div id="omot-kontakt">
+				<header id="naslov-kontakt">
+					<h2>Get in touch</h2>
+					<p>You can book your free consultation here</p>
+				</header>
+				<div id="forma-kontakt">
+					<form name="forma" action="#" method="POST">
+						<table id="blok-kontakt">
+							<tr class="ime">
+							<td><input name="name" placeholder="Name" type="text"/></td>
+							</tr>
+							<tr class="ime">
+							<td><input name="email" placeholder="Email" type="email"/></td>
+							</tr>								
+							<tr id="poruka">
+							<td><textarea name="message" placeholder="Message" rows="4"></textarea></td>
+							</tr>
+							<tr id="dugme-kontakt">
+							<td><input type="submit" class="special" value="Submit" /></td>
+							<td><input type="reset" class="alt" value="Reset" /></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<div class="cistac"></div>
+			</div>
+		</section>-->
+		
+		<!--Futer-->
+		<footer id="futer">
+				<div class="futer-sekcija">
+                    <ul id="mreze">
+                        <li><a href="https://www.facebook.com/tattoofactorybg/?ref=br_rs" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/ArtOfTheTattoos" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/tattoos_of_insta/" title="Instagram"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/sofija-stoli%C4%87-11658bb4/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+				</div>
+				<div class="futer-sekcija">
+					<ul>
+						<li><a href="index.html" target="_blank">Home</a></li>
+						<li><a href="artists.html" target="_blank">Crew</a></li>
+						<li><a href="gallery.html" target="_blank">Gallery</a></li>
+						<li><a href="author.html" target="_blank">About</a></li>
+						<li><a href="registration.html" target="_blank">Sign in</a></li>
+						<li><a href="registration.html" target="_blank">Sign up</a></li>
+						<li><a href="sitemap.xml" target="_blank">Sitemap</a></li>
+						<li><a href="news.xml" target="_blank">RSS</a></li>
+						<li><a href="sass.txt" target="_blank">SASS</a></li>
+						
+					</ul>
+				</div>
+				<div class="cistac"></div>
+			<p>Made By <a href="author.html" title="Visit author page" target="_blank">Sofija Stolić</a></p> 
+			<div class="cistac"></div>
+		</footer>
+		
+	</body>
+
+</html>
